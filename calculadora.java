@@ -28,6 +28,7 @@ public class calculadora {
 
 			//suma
 		case 1:
+				
 			System.out.println("Primer numero");
 			numero1= entrada.nextDouble();
 			
@@ -41,7 +42,8 @@ public class calculadora {
 
 				//resta 
 				
-			case 2:	
+		case 2:	
+				
 		    System.out.println("Primer numero");
 			numero1= entrada.nextDouble();
 			
@@ -66,7 +68,26 @@ public class calculadora {
 			System.out.println("Resultado" + (numero1 * numero2));
 			System.out.println("----------------------------");
 		break;
+
+				//division
+		case 4:
+	
+       System.out.println("Primer numero");
+			numero1= entrada.nextDouble();
 			
+			System.out.println("Segundo numero");
+			numero2= entrada.nextDouble();
+			
+			if (numero2 ==0) {
+			System.out.println("No se puede dividir entre cero");
+			} else {
+			System.out.println("----------------------------");
+			System.out.println("Resultado" + (numero1 / numero2));
+			System.out.println("----------------------------");
+			}
+			System.out.println();
+			break;   
+				
 		case 5:
 			System.out.println("salio de la calculadora");
 			break;
