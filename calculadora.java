@@ -25,7 +25,8 @@ public class calculadora {
 		
 		opcion = entrada.nextInt();
 		switch(opcion) {
-			
+
+			//suma
 		case 1:
 			System.out.println("Primer numero");
 			numero1= entrada.nextDouble();
