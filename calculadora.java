@@ -49,9 +49,23 @@ public class calculadora {
 			numero2= entrada.nextDouble();
 			
 			System.out.println("----------------------------");
-			System.out.println("Resultado" + (numero1 + numero2));
+			System.out.println("Resultado" + (numero1 - numero2));
 			System.out.println("----------------------------");
-		
+		break;
+
+				//multiplicacion
+			case 3:		
+
+			System.out.println("Primer numero");
+			numero1= entrada.nextDouble();
+			
+			System.out.println("Segundo numero");
+			numero2= entrada.nextDouble();
+			
+			System.out.println("----------------------------");
+			System.out.println("Resultado" + (numero1 * numero2));
+			System.out.println("----------------------------");
+		break;
 			
 		case 5:
 			System.out.println("salio de la calculadora");
