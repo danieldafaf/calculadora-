@@ -38,7 +38,19 @@ public class calculadora {
 			System.out.println("Resultado" + (numero1 + numero2));
 			System.out.println("----------------------------");
 		break;
-		
+
+				//resta 
+				
+			case 2:	
+		    System.out.println("Primer numero");
+			numero1= entrada.nextDouble();
+			
+			System.out.println("Segundo numero");
+			numero2= entrada.nextDouble();
+			
+			System.out.println("----------------------------");
+			System.out.println("Resultado" + (numero1 + numero2));
+			System.out.println("----------------------------");
 		
 			
 		case 5:
