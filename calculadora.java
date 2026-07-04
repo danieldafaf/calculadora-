@@ -21,7 +21,7 @@ public class calculadora {
 		System.out.println("3.multiplicar");
 		System.out.println("4.dividir");
 		System.out.println("5.salir");
-		System.out.println("Seleccione una opcion: ");
+		System.out.println("Seleccione una opción: ");
 		
 		opcion = entrada.nextInt();
 		switch(opcion) {
@@ -29,10 +29,10 @@ public class calculadora {
 			//suma
 		case 1:
 				
-			System.out.println("Primer numero");
+			System.out.println("Primer número");
 			numero1= entrada.nextDouble();
 			
-			System.out.println("Segundo numero");
+			System.out.println("Segundo número");
 			numero2= entrada.nextDouble();
 			
 			System.out.println("----------------------------");
@@ -44,10 +44,10 @@ public class calculadora {
 				
 		case 2:	
 				
-		    System.out.println("Primer numero");
+		    System.out.println("Primer número");
 			numero1= entrada.nextDouble();
 			
-			System.out.println("Segundo numero");
+			System.out.println("Segundo número");
 			numero2= entrada.nextDouble();
 			
 			System.out.println("----------------------------");
@@ -61,7 +61,7 @@ public class calculadora {
 			System.out.println("Primer numero");
 			numero1= entrada.nextDouble();
 			
-			System.out.println("Segundo numero");
+			System.out.println("Segundo número");
 			numero2= entrada.nextDouble();
 			
 			System.out.println("----------------------------");
@@ -72,10 +72,10 @@ public class calculadora {
 				//division
 		case 4:
 	
-       System.out.println("Primer numero");
+       System.out.println("Primer número");
 			numero1= entrada.nextDouble();
 			
-			System.out.println("Segundo numero");
+			System.out.println("Segundo número");
 			numero2= entrada.nextDouble();
 			
 			if (numero2 ==0) {
@@ -89,7 +89,7 @@ public class calculadora {
 			break;   
 				
 		case 5:
-			System.out.println("salio de la calculadora");
+			System.out.println("salió de la calculadora");
 			break;
 	}	
 		
