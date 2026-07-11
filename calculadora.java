@@ -91,6 +91,11 @@ public class calculadora {
 		case 5:
 			System.out.println("salió de la calculadora");
 			break;
+
+			default:
+				System.out.println("Opcion no valida: Intentalo de nuevo:");
+				System.out.println();
+				break;
 	}	
 		
 	}while (opcion !=5);
