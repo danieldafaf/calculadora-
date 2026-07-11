@@ -16,11 +16,11 @@ public class calculadora {
 
 	do {
 		System.out.println("----Calculadora----");
-		System.out.println("1.sumar");
-		System.out.println("2.restar");
-		System.out.println("3.multiplicar");
-		System.out.println("4.dividir");
-		System.out.println("5.salir");
+		System.out.println("1. Sumar: ");
+		System.out.println("2. Restar: ");
+		System.out.println("3. Multiplicar: ");
+		System.out.println("4. Dividir: ");
+		System.out.println("5. Salir: ");
 		System.out.println("Seleccione una opción: ");
 		
 		opcion = entrada.nextInt();
